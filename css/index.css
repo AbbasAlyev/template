@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+}
+.container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-6 {
+  font-size: 20px;
+}
+
+main section .row {
+  display: flex;
+  align-content: center;
+}
+main section .first-img {
+  background: url(../waist-up-shot-excited-handsome-man.jpg);
+  background-size: cover;
+  width: 50vw;
+  height: 100%;
+}
+main section .second-img {
+  background: url(../42w5.jpg);
+  width: 50vw;
+  height: 80vh;
+}
+main section .text {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+main section .btn-wrapper {
+  position: relative;
+  top: 180px;
+  left: 70px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
